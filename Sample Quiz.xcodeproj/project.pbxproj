@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BF6BF53FB4E8817A9BD48EA /* Pods_Sample_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10573F224618CC32031644E5 /* Pods_Sample_Quiz.framework */; };
+		CEB7E13D29BCBD560012BBE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E13C29BCBD560012BBE4 /* AppDelegate.swift */; };
+		CEB7E13F29BCBD560012BBE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E13E29BCBD560012BBE4 /* SceneDelegate.swift */; };
+		CEB7E14129BCBD560012BBE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E14029BCBD560012BBE4 /* ViewController.swift */; };
+		CEB7E14429BCBD560012BBE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E14229BCBD560012BBE4 /* Main.storyboard */; };
+		CEB7E14629BCBD570012BBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E14529BCBD570012BBE4 /* Assets.xcassets */; };
+		CEB7E14929BCBD570012BBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E14729BCBD570012BBE4 /* LaunchScreen.storyboard */; };
+		CEB7E15129BCBEAE0012BBE4 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E15029BCBEAE0012BBE4 /* QuizViewController.swift */; };
+		CEB7E15329BCBF3B0012BBE4 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E15229BCBF3B0012BBE4 /* ScoreViewController.swift */; };
+		CEB7E15529BD62360012BBE4 /* quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E15429BD62360012BBE4 /* quiz1.csv */; };
+		CEB7E15929BD788E0012BBE4 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E15729BD788E0012BBE4 /* correct.png */; };
+		CEB7E15A29BD788E0012BBE4 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E15829BD788E0012BBE4 /* incorrect.png */; };
+		CEB7E15C29BDE0B20012BBE4 /* SelectGenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7E15B29BDE0B20012BBE4 /* SelectGenreViewController.swift */; };
+		CEB7E16029BDE5B50012BBE4 /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E15F29BDE5B50012BBE4 /* quiz2.csv */; };
+		CEB7E16229BDE5F20012BBE4 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16129BDE5F20012BBE4 /* quiz3.csv */; };
+		CEB7E16429BDE6BF0012BBE4 /* quiz4.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16329BDE6BF0012BBE4 /* quiz4.csv */; };
+		CEB7E16629BDE6E40012BBE4 /* quiz5.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16529BDE6E40012BBE4 /* quiz5.csv */; };
+		CEB7E16929C81B7B0012BBE4 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16829C81B7B0012BBE4 /* launchImageView.png */; };
+		CEB7E16B29C8990B0012BBE4 /* quiz6.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16A29C8990B0012BBE4 /* quiz6.csv */; };
+		CEB7E16E29C89F360012BBE4 /* quiz7.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16D29C89F360012BBE4 /* quiz7.csv */; };
+		CEB7E17029C8A5EC0012BBE4 /* quiz8.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16F29C8A5EC0012BBE4 /* quiz8.csv */; };
+		CEB7E17229C9472F0012BBE4 /* quiz9.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E17129C9472F0012BBE4 /* quiz9.csv */; };
+		CEB7E17429C954480012BBE4 /* quiz10.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E17329C954480012BBE4 /* quiz10.csv */; };
+		CEB7E17729C974680012BBE4 /* retroparty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E17629C974680012BBE4 /* retroparty.mp3 */; };
+		CEB7E17929C9770F0012BBE4 /* 決定ボタンを押す35.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E17829C9770F0012BBE4 /* 決定ボタンを押す35.mp3 */; };
+		CEB7E17D29C979E80012BBE4 /* クイズ出題1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E17A29C979E80012BBE4 /* クイズ出題1.mp3 */; };
+		CEB7E17E29C979E80012BBE4 /* クイズ正解1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E17B29C979E80012BBE4 /* クイズ正解1.mp3 */; };
+		CEB7E17F29C979E80012BBE4 /* クイズ不正解1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E17C29C979E80012BBE4 /* クイズ不正解1.mp3 */; };
+		CEB7E18329C97EB90012BBE4 /* 間抜け1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E18129C97EB90012BBE4 /* 間抜け1.mp3 */; };
+		CEB7E18429C97EB90012BBE4 /* 目が点になる.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E18229C97EB90012BBE4 /* 目が点になる.mp3 */; };
+		CEB7E18829C980A20012BBE4 /* キラッ2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E18529C980A20012BBE4 /* キラッ2.mp3 */; };
+		CEB7E18929C980A20012BBE4 /* 歓声と拍手.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E18629C980A20012BBE4 /* 歓声と拍手.mp3 */; };
+		CEB7E18A29C980A20012BBE4 /* 教会の祈り.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E18729C980A20012BBE4 /* 教会の祈り.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10573F224618CC32031644E5 /* Pods_Sample_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		871FE62761A31E13200B03B9 /* Pods-Sample Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample Quiz.debug.xcconfig"; path = "Target Support Files/Pods-Sample Quiz/Pods-Sample Quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		9F3D37C341D3CBAE86381986 /* Pods-Sample Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample Quiz.release.xcconfig"; path = "Target Support Files/Pods-Sample Quiz/Pods-Sample Quiz.release.xcconfig"; sourceTree = "<group>"; };
+		CEB7E13929BCBD560012BBE4 /* Sample Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB7E13C29BCBD560012BBE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEB7E13E29BCBD560012BBE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEB7E14029BCBD560012BBE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEB7E14329BCBD560012BBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB7E14529BCBD570012BBE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB7E14829BCBD570012BBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB7E14A29BCBD570012BBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB7E15029BCBEAE0012BBE4 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		CEB7E15229BCBF3B0012BBE4 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		CEB7E15429BD62360012BBE4 /* quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz1.csv; sourceTree = "<group>"; };
+		CEB7E15729BD788E0012BBE4 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		CEB7E15829BD788E0012BBE4 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		CEB7E15B29BDE0B20012BBE4 /* SelectGenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
+		CEB7E15F29BDE5B50012BBE4 /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
+		CEB7E16129BDE5F20012BBE4 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
+		CEB7E16329BDE6BF0012BBE4 /* quiz4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz4.csv; sourceTree = "<group>"; };
+		CEB7E16529BDE6E40012BBE4 /* quiz5.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz5.csv; sourceTree = "<group>"; };
+		CEB7E16829C81B7B0012BBE4 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
+		CEB7E16A29C8990B0012BBE4 /* quiz6.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz6.csv; sourceTree = "<group>"; };
+		CEB7E16D29C89F360012BBE4 /* quiz7.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz7.csv; sourceTree = "<group>"; };
+		CEB7E16F29C8A5EC0012BBE4 /* quiz8.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz8.csv; sourceTree = "<group>"; };
+		CEB7E17129C9472F0012BBE4 /* quiz9.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz9.csv; sourceTree = "<group>"; };
+		CEB7E17329C954480012BBE4 /* quiz10.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz10.csv; sourceTree = "<group>"; };
+		CEB7E17629C974680012BBE4 /* retroparty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = retroparty.mp3; sourceTree = "<group>"; };
+		CEB7E17829C9770F0012BBE4 /* 決定ボタンを押す35.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "決定ボタンを押す35.mp3"; sourceTree = "<group>"; };
+		CEB7E17A29C979E80012BBE4 /* クイズ出題1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "クイズ出題1.mp3"; sourceTree = "<group>"; };
+		CEB7E17B29C979E80012BBE4 /* クイズ正解1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "クイズ正解1.mp3"; sourceTree = "<group>"; };
+		CEB7E17C29C979E80012BBE4 /* クイズ不正解1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "クイズ不正解1.mp3"; sourceTree = "<group>"; };
+		CEB7E18129C97EB90012BBE4 /* 間抜け1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "間抜け1.mp3"; sourceTree = "<group>"; };
+		CEB7E18229C97EB90012BBE4 /* 目が点になる.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "目が点になる.mp3"; sourceTree = "<group>"; };
+		CEB7E18529C980A20012BBE4 /* キラッ2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "キラッ2.mp3"; sourceTree = "<group>"; };
+		CEB7E18629C980A20012BBE4 /* 歓声と拍手.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "歓声と拍手.mp3"; sourceTree = "<group>"; };
+		CEB7E18729C980A20012BBE4 /* 教会の祈り.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "教会の祈り.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB7E13629BCBD560012BBE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF6BF53FB4E8817A9BD48EA /* Pods_Sample_Quiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7522438C245495B66E012C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				871FE62761A31E13200B03B9 /* Pods-Sample Quiz.debug.xcconfig */,
+				9F3D37C341D3CBAE86381986 /* Pods-Sample Quiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5CABB7DB9D33B843EAA02F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10573F224618CC32031644E5 /* Pods_Sample_Quiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEB7E13029BCBD560012BBE4 = {
+			isa = PBXGroup;
+			children = (
+				CEB7E13B29BCBD560012BBE4 /* Sample Quiz */,
+				CEB7E13A29BCBD560012BBE4 /* Products */,
+				1F7522438C245495B66E012C /* Pods */,
+				5CABB7DB9D33B843EAA02F5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB7E13A29BCBD560012BBE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7E13929BCBD560012BBE4 /* Sample Quiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB7E13B29BCBD560012BBE4 /* Sample Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7E18029C97B7D0012BBE4 /* quiz */,
+				CEB7E17529C974460012BBE4 /* sound */,
+				CEB7E14729BCBD570012BBE4 /* LaunchScreen.storyboard */,
+				CEB7E14029BCBD560012BBE4 /* ViewController.swift */,
+				CEB7E15B29BDE0B20012BBE4 /* SelectGenreViewController.swift */,
+				CEB7E15029BCBEAE0012BBE4 /* QuizViewController.swift */,
+				CEB7E15229BCBF3B0012BBE4 /* ScoreViewController.swift */,
+				CEB7E14229BCBD560012BBE4 /* Main.storyboard */,
+				CEB7E13C29BCBD560012BBE4 /* AppDelegate.swift */,
+				CEB7E13E29BCBD560012BBE4 /* SceneDelegate.swift */,
+				CEB7E14529BCBD570012BBE4 /* Assets.xcassets */,
+				CEB7E14A29BCBD570012BBE4 /* Info.plist */,
+				CEB7E16729C81B7B0012BBE4 /* launchImage */,
+				CEB7E15629BD788E0012BBE4 /* image */,
+			);
+			path = "Sample Quiz";
+			sourceTree = "<group>";
+		};
+		CEB7E15629BD788E0012BBE4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7E15729BD788E0012BBE4 /* correct.png */,
+				CEB7E15829BD788E0012BBE4 /* incorrect.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		CEB7E16729C81B7B0012BBE4 /* launchImage */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7E16829C81B7B0012BBE4 /* launchImageView.png */,
+			);
+			path = launchImage;
+			sourceTree = "<group>";
+		};
+		CEB7E17529C974460012BBE4 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7E18D29C980EF0012BBE4 /* BGM */,
+				CEB7E18C29C980D90012BBE4 /* quizSE */,
+				CEB7E18B29C980AF0012BBE4 /* scoreSE */,
+				CEB7E17829C9770F0012BBE4 /* 決定ボタンを押す35.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		CEB7E18029C97B7D0012BBE4 /* quiz */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7E15429BD62360012BBE4 /* quiz1.csv */,
+				CEB7E15F29BDE5B50012BBE4 /* quiz2.csv */,
+				CEB7E16129BDE5F20012BBE4 /* quiz3.csv */,
+				CEB7E16329BDE6BF0012BBE4 /* quiz4.csv */,
+				CEB7E16529BDE6E40012BBE4 /* quiz5.csv */,
+				CEB7E16A29C8990B0012BBE4 /* quiz6.csv */,
+				CEB7E16D29C89F360012BBE4 /* quiz7.csv */,
+				CEB7E16F29C8A5EC0012BBE4 /* quiz8.csv */,
+				CEB7E17129C9472F0012BBE4 /* quiz9.csv */,
+				CEB7E17329C954480012BBE4 /* quiz10.csv */,
+			);
+			path = quiz;
+			sourceTree = "<group>";
+		};
+		CEB7E18B29C980AF0012BBE4 /* scoreSE */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7E18129C97EB90012BBE4 /* 間抜け1.mp3 */,
+				CEB7E18229C97EB90012BBE4 /* 目が点になる.mp3 */,
+				CEB7E18529C980A20012BBE4 /* キラッ2.mp3 */,
+				CEB7E18629C980A20012BBE4 /* 歓声と拍手.mp3 */,
+				CEB7E18729C980A20012BBE4 /* 教会の祈り.mp3 */,
+			);
+			path = scoreSE;
+			sourceTree = "<group>";
+		};
+		CEB7E18C29C980D90012BBE4 /* quizSE */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7E17A29C979E80012BBE4 /* クイズ出題1.mp3 */,
+				CEB7E17B29C979E80012BBE4 /* クイズ正解1.mp3 */,
+				CEB7E17C29C979E80012BBE4 /* クイズ不正解1.mp3 */,
+			);
+			path = quizSE;
+			sourceTree = "<group>";
+		};
+		CEB7E18D29C980EF0012BBE4 /* BGM */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7E17629C974680012BBE4 /* retroparty.mp3 */,
+			);
+			path = BGM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB7E13829BCBD560012BBE4 /* Sample Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB7E14D29BCBD570012BBE4 /* Build configuration list for PBXNativeTarget "Sample Quiz" */;
+			buildPhases = (
+				903DE4767812F112C399499F /* [CP] Check Pods Manifest.lock */,
+				CEB7E13529BCBD560012BBE4 /* Sources */,
+				CEB7E13629BCBD560012BBE4 /* Frameworks */,
+				CEB7E13729BCBD560012BBE4 /* Resources */,
+				93000A802507BEB6D5987472 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample Quiz";
+			productName = "Sample Quiz";
+			productReference = CEB7E13929BCBD560012BBE4 /* Sample Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB7E13129BCBD560012BBE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CEB7E13829BCBD560012BBE4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CEB7E13429BCBD560012BBE4 /* Build configuration list for PBXProject "Sample Quiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB7E13029BCBD560012BBE4;
+			productRefGroup = CEB7E13A29BCBD560012BBE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB7E13829BCBD560012BBE4 /* Sample Quiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB7E13729BCBD560012BBE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7E17929C9770F0012BBE4 /* 決定ボタンを押す35.mp3 in Resources */,
+				CEB7E18329C97EB90012BBE4 /* 間抜け1.mp3 in Resources */,
+				CEB7E17E29C979E80012BBE4 /* クイズ正解1.mp3 in Resources */,
+				CEB7E15929BD788E0012BBE4 /* correct.png in Resources */,
+				CEB7E15A29BD788E0012BBE4 /* incorrect.png in Resources */,
+				CEB7E16B29C8990B0012BBE4 /* quiz6.csv in Resources */,
+				CEB7E16029BDE5B50012BBE4 /* quiz2.csv in Resources */,
+				CEB7E17729C974680012BBE4 /* retroparty.mp3 in Resources */,
+				CEB7E18A29C980A20012BBE4 /* 教会の祈り.mp3 in Resources */,
+				CEB7E16629BDE6E40012BBE4 /* quiz5.csv in Resources */,
+				CEB7E17229C9472F0012BBE4 /* quiz9.csv in Resources */,
+				CEB7E16229BDE5F20012BBE4 /* quiz3.csv in Resources */,
+				CEB7E18929C980A20012BBE4 /* 歓声と拍手.mp3 in Resources */,
+				CEB7E17F29C979E80012BBE4 /* クイズ不正解1.mp3 in Resources */,
+				CEB7E16929C81B7B0012BBE4 /* launchImageView.png in Resources */,
+				CEB7E14929BCBD570012BBE4 /* LaunchScreen.storyboard in Resources */,
+				CEB7E16E29C89F360012BBE4 /* quiz7.csv in Resources */,
+				CEB7E16429BDE6BF0012BBE4 /* quiz4.csv in Resources */,
+				CEB7E18429C97EB90012BBE4 /* 目が点になる.mp3 in Resources */,
+				CEB7E18829C980A20012BBE4 /* キラッ2.mp3 in Resources */,
+				CEB7E17029C8A5EC0012BBE4 /* quiz8.csv in Resources */,
+				CEB7E17D29C979E80012BBE4 /* クイズ出題1.mp3 in Resources */,
+				CEB7E14629BCBD570012BBE4 /* Assets.xcassets in Resources */,
+				CEB7E14429BCBD560012BBE4 /* Main.storyboard in Resources */,
+				CEB7E17429C954480012BBE4 /* quiz10.csv in Resources */,
+				CEB7E15529BD62360012BBE4 /* quiz1.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		903DE4767812F112C399499F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sample Quiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93000A802507BEB6D5987472 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample Quiz/Pods-Sample Quiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample Quiz/Pods-Sample Quiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sample Quiz/Pods-Sample Quiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB7E13529BCBD560012BBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB7E14129BCBD560012BBE4 /* ViewController.swift in Sources */,
+				CEB7E13D29BCBD560012BBE4 /* AppDelegate.swift in Sources */,
+				CEB7E15C29BDE0B20012BBE4 /* SelectGenreViewController.swift in Sources */,
+				CEB7E15329BCBF3B0012BBE4 /* ScoreViewController.swift in Sources */,
+				CEB7E13F29BCBD560012BBE4 /* SceneDelegate.swift in Sources */,
+				CEB7E15129BCBEAE0012BBE4 /* QuizViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEB7E14229BCBD560012BBE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB7E14329BCBD560012BBE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB7E14729BCBD570012BBE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB7E14829BCBD570012BBE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB7E14B29BCBD570012BBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB7E14C29BCBD570012BBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB7E14E29BCBD570012BBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871FE62761A31E13200B03B9 /* Pods-Sample Quiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HXJLYHK5AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sample Quiz/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "carrot.Sample-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB7E14F29BCBD570012BBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3D37C341D3CBAE86381986 /* Pods-Sample Quiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HXJLYHK5AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sample Quiz/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "carrot.Sample-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB7E13429BCBD560012BBE4 /* Build configuration list for PBXProject "Sample Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB7E14B29BCBD570012BBE4 /* Debug */,
+				CEB7E14C29BCBD570012BBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB7E14D29BCBD570012BBE4 /* Build configuration list for PBXNativeTarget "Sample Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB7E14E29BCBD570012BBE4 /* Debug */,
+				CEB7E14F29BCBD570012BBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB7E13129BCBD560012BBE4 /* Project object */;
+}
