@@ -130,12 +130,12 @@
         <scene sceneID="cf7-Kc-vIL">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="jAR-SL-m4O" customClass="SelectGenreViewController" customModule="Sample_Quiz" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="23P-9P-u7y">
+                    <view key="view" contentMode="scaleToFill" id="23P-9P-u7y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作品を選択してください。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="rNy-KU-AVS">
-                                <rect key="frame" x="20" y="30" width="292" height="70"/>
+                                <rect key="frame" x="20" y="30" width="335" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="6Eo-mM-uTZ"/>
                                 </constraints>
@@ -144,7 +144,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bvv-I2-F2E">
-                                <rect key="frame" x="16" y="305" width="343" height="1423"/>
+                                <rect key="frame" x="16" y="130" width="343" height="1000"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="gNz-1T-Ups">
                                         <rect key="frame" x="19" y="0.0" width="262" height="770"/>
@@ -390,7 +390,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aul-mA-6FF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1562" y="-28"/>
+            <point key="canvasLocation" x="1578" y="-28"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
