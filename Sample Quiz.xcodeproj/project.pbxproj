@@ -24,7 +24,6 @@
 		CEB7E16229BDE5F20012BBE4 /* quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16129BDE5F20012BBE4 /* quiz3.csv */; };
 		CEB7E16429BDE6BF0012BBE4 /* quiz4.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16329BDE6BF0012BBE4 /* quiz4.csv */; };
 		CEB7E16629BDE6E40012BBE4 /* quiz5.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16529BDE6E40012BBE4 /* quiz5.csv */; };
-		CEB7E16929C81B7B0012BBE4 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16829C81B7B0012BBE4 /* launchImageView.png */; };
 		CEB7E16B29C8990B0012BBE4 /* quiz6.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16A29C8990B0012BBE4 /* quiz6.csv */; };
 		CEB7E16E29C89F360012BBE4 /* quiz7.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16D29C89F360012BBE4 /* quiz7.csv */; };
 		CEB7E17029C8A5EC0012BBE4 /* quiz8.csv in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E16F29C8A5EC0012BBE4 /* quiz8.csv */; };
@@ -40,6 +39,7 @@
 		CEB7E18829C980A20012BBE4 /* キラッ2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E18529C980A20012BBE4 /* キラッ2.mp3 */; };
 		CEB7E18929C980A20012BBE4 /* 歓声と拍手.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E18629C980A20012BBE4 /* 歓声と拍手.mp3 */; };
 		CEB7E18A29C980A20012BBE4 /* 教会の祈り.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEB7E18729C980A20012BBE4 /* 教会の祈り.mp3 */; };
+		CEEC084229D063E9009A8F40 /* launchImageView.png in Resources */ = {isa = PBXBuildFile; fileRef = CEEC084129D063E9009A8F40 /* launchImageView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +64,6 @@
 		CEB7E16129BDE5F20012BBE4 /* quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz3.csv; sourceTree = "<group>"; };
 		CEB7E16329BDE6BF0012BBE4 /* quiz4.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz4.csv; sourceTree = "<group>"; };
 		CEB7E16529BDE6E40012BBE4 /* quiz5.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz5.csv; sourceTree = "<group>"; };
-		CEB7E16829C81B7B0012BBE4 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImageView.png; sourceTree = "<group>"; };
 		CEB7E16A29C8990B0012BBE4 /* quiz6.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz6.csv; sourceTree = "<group>"; };
 		CEB7E16D29C89F360012BBE4 /* quiz7.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz7.csv; sourceTree = "<group>"; };
 		CEB7E16F29C8A5EC0012BBE4 /* quiz8.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz8.csv; sourceTree = "<group>"; };
@@ -80,6 +79,7 @@
 		CEB7E18529C980A20012BBE4 /* キラッ2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "キラッ2.mp3"; sourceTree = "<group>"; };
 		CEB7E18629C980A20012BBE4 /* 歓声と拍手.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "歓声と拍手.mp3"; sourceTree = "<group>"; };
 		CEB7E18729C980A20012BBE4 /* 教会の祈り.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "教会の祈り.mp3"; sourceTree = "<group>"; };
+		CEEC084129D063E9009A8F40 /* launchImageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchImageView.png; path = ../../../../../../Downloads/launchImageView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +162,7 @@
 		CEB7E16729C81B7B0012BBE4 /* launchImage */ = {
 			isa = PBXGroup;
 			children = (
-				CEB7E16829C81B7B0012BBE4 /* launchImageView.png */,
+				CEEC084129D063E9009A8F40 /* launchImageView.png */,
 			);
 			path = launchImage;
 			sourceTree = "<group>";
@@ -294,12 +294,12 @@
 				CEB7E16029BDE5B50012BBE4 /* quiz2.csv in Resources */,
 				CEB7E17729C974680012BBE4 /* retroparty.mp3 in Resources */,
 				CEB7E18A29C980A20012BBE4 /* 教会の祈り.mp3 in Resources */,
+				CEEC084229D063E9009A8F40 /* launchImageView.png in Resources */,
 				CEB7E16629BDE6E40012BBE4 /* quiz5.csv in Resources */,
 				CEB7E17229C9472F0012BBE4 /* quiz9.csv in Resources */,
 				CEB7E16229BDE5F20012BBE4 /* quiz3.csv in Resources */,
 				CEB7E18929C980A20012BBE4 /* 歓声と拍手.mp3 in Resources */,
 				CEB7E17F29C979E80012BBE4 /* クイズ不正解1.mp3 in Resources */,
-				CEB7E16929C81B7B0012BBE4 /* launchImageView.png in Resources */,
 				CEB7E14929BCBD570012BBE4 /* LaunchScreen.storyboard in Resources */,
 				CEB7E16E29C89F360012BBE4 /* quiz7.csv in Resources */,
 				CEB7E16429BDE6BF0012BBE4 /* quiz4.csv in Resources */,
